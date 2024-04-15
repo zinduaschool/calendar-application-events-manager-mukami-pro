@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #091f1f;
+  }
+  
+  header {
+    background-color: #1976D2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .calendar {
+    flex: 1;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #2f6375;
+
+
+  }
+  
+  .event {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(20, 47, 90, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    background-color: #2e6dac;
+  }
+
+  th ,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th{
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+  }
+
+  .new-event{
+    background-color: #176683;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  label{
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="date"] {
+    width:calc(100% -22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  
+  .event-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .event-header h2 {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .event-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .event-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #add-event-container {
+    flex: 1;
+  }
+  
+  #add-event-container h2 {
+    text-align: center;
+  }
+  
+  #add-event-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #1976D2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: hsl(170, 78%, 18%);
+  }
+  
+  
